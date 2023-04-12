@@ -7,6 +7,6 @@ CourseRouter.get("/",getcourse);
 CourseRouter.get("/:id",getdatabyid);
 CourseRouter.post("/",addcourse);
 CourseRouter.post("/signin",signIn);
-CourseRouterr.get("/login/:id",getdata);
+CourseRouter.get("/login/:id",getdata);
 CourseRouter.post("/login",login);
 export default CourseRouter;
